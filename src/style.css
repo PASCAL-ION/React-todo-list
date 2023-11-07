@@ -1,15 +1,14 @@
 :root {
-    --bg-color: #F5FBF5;
-    --active-or-selected-bg: #C9E8CA;
-    --subtle-border: #B2DDB5;
-    --border-color: #94CE9A;
-    --hover-border-color: #5BB98B;
-    --ui-element-bg: #E9F6E9;
-    --ui-element-bg-hover: #DAF1DB;
-    --primary: #46A758;
-    --primary-hover: #3E9B4F;
-    --height-contrast-text: #203C25;
-    --low-contrast-text: #218358;
+    --app-bg: #17120E;
+    --ui-element-bg: #331E0B;
+    --ui-element-bg-hover: #A35829;
+    --subtle-border: #66350C;
+    --border-color: #7E451D;
+    --hover-border-color: #A35829;
+    --primary: #F76B15;
+    --primary-hover: #FF801F;
+    --height-contrast-text: #FFE0C2;
+    --low-contrast-text: #FFA057;
 }
 button{
     border: none;
@@ -38,7 +37,7 @@ h1, p, label, h2, span{
 #root{
     width: 100%;
     height: 100%;
-    background: var(--bg-color);
+    background: var(--app-bg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,6 +155,7 @@ h1, p, label, h2, span{
 #checkbox:checked ~ #task-text{
     color: gray;
     text-decoration: line-through;
+    color: var(--low-contrast-text);
 }
 
 .tasks-list .delete-task{
