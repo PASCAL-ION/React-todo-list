@@ -2,7 +2,7 @@
   "name": "react-todolist",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://github.com/PASCAL-ION/React-todo-list.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
